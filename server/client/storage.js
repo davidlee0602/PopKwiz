@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import { firebaseAdmin } from './firebase';
 
 export const storage = firebaseAdmin.storage();
-export const quizBucket = storage.bucket('popkwiz-quiz');
+export const quizBucket = storage.bucket('popkwiz-2022.appspot.com');
 export const avatarBucket = storage.bucket('popkwiz-avatar');
 
 export const uploadFile = async (bucket, file) => {
